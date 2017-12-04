@@ -1,0 +1,7 @@
+E:\webasp.net\webasp.net\bin\webasp.net.dll.config
+E:\webasp.net\webasp.net\bin\webasp.net.dll
+E:\webasp.net\webasp.net\bin\webasp.net.pdb
+E:\webasp.net\webasp.net\obj\Debug\webasp.net.csproj.CoreCompileInputs.cache
+E:\webasp.net\webasp.net\obj\Debug\webasp.net.dll
+E:\webasp.net\webasp.net\obj\Debug\webasp.net.pdb
+E:\webasp.net\webasp.net\obj\Debug\webasp.net.csprojResolveAssemblyReference.cache

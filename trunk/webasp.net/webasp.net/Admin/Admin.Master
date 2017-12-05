@@ -45,10 +45,7 @@
                     </div>
                     <div class=" menunhanh" style="text-align: left; font-weight: bold; text-decoration: underline;">
                         CẬP NHẬT</div>
-                    <div class=" menunhanh">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Nhaphang.aspx" style="text-decoration: none;">
-                            Nhập hàng</a>
-                    </div>
+                    
                     <div class=" menunhanh">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="CapnhatSP.aspx" style="text-decoration: none;">
                             Sản phẩm</a>

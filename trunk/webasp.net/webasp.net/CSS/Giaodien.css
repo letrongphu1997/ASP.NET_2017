@@ -16,13 +16,12 @@
 	padding-top: 10px;
 	border-top: 3px solid red;
 }
-#header  	
-   	{
-   		max-width:100%;
-   		height:150px;
-   		border: 1px solid black;
-   		background-image: url('../Anh/thoitrang.jpg');
-   		}
+#header {
+    max-width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    background-image: url('../Anh/slide5.jpg');
+}
 div#ThanhMenu
 {
 	background-image: url('../Anh/three_0.gif');

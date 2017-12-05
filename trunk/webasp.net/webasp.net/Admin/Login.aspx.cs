@@ -43,7 +43,7 @@ namespace webasp
                     //string quyen = "select Power from tbl_Account where Account = '" + txtuser.Text + "'";
                     //if (quyen == "Quản lý")
                     //{
-                        Response.Redirect("Nhaphang.aspx");
+                        Response.Redirect("CapnhatSP.aspx");
                     //}
                     //else
                     //{

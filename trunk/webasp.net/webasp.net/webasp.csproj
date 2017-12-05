@@ -81,7 +81,7 @@
     <Content Include="Admin\ThongtinHD.aspx" />
     <Content Include="Admin\TimkiemNCC.aspx" />
     <Content Include="Admin\TimkiemSP.aspx" />
-    <Content Include="Admin\WebForm18.aspx" />
+    <Content Include="Admin\Admin.aspx" />
     <Content Include="AnhSanPham\AoCuoi1.jpg" />
     <Content Include="AnhSanPham\AoCuoi2.jpg" />
     <Content Include="AnhSanPham\aocuoi8.jpg" />
@@ -182,11 +182,36 @@
     <Content Include="Banner\Anh Banner\chan trang.bmp" />
     <Content Include="Banner\Anh Banner\lazada-giay-the-thao-cho-nam.jpg" />
     <Content Include="Banner\video5.swf" />
+    <Content Include="ChiTiet.aspx" />
     <Content Include="CSS\Giaodien.css" />
+    <Content Include="CSS\images\border.gif" />
+    <Content Include="CSS\images\cart-price.gif" />
+    <Content Include="CSS\images\cart.gif" />
+    <Content Include="CSS\images\container-t.gif" />
+    <Content Include="CSS\images\field.gif" />
+    <Content Include="CSS\images\image1.jpg" />
+    <Content Include="CSS\images\image2.jpg" />
+    <Content Include="CSS\images\image3.jpg" />
+    <Content Include="CSS\images\image4.jpg" />
+    <Content Include="CSS\images\logo.gif" />
+    <Content Include="CSS\images\logo1.gif" />
+    <Content Include="CSS\images\logo2.gif" />
+    <Content Include="CSS\images\logo3.gif" />
+    <Content Include="CSS\images\logo4.gif" />
+    <Content Include="CSS\images\logo5.gif" />
+    <Content Include="CSS\images\main.gif" />
+    <Content Include="CSS\images\next.gif" />
+    <Content Include="CSS\images\prev.gif" />
+    <Content Include="CSS\images\search.gif" />
+    <Content Include="CSS\images\slide1.jpg" />
+    <Content Include="CSS\images\slide2.jpg" />
+    <Content Include="CSS\images\tab.gif" />
     <Content Include="CSS\khung.css" />
     <Content Include="CSS\pro_dropdown_3.css" />
     <Content Include="CSS\stuHover.js" />
+    <Content Include="CSS\style.css" />
     <Content Include="GioHang.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="images\giay-the-thao-nam-cho-chang-ve-dep-phong-cach-cuc-chat-va-cuc-thoi-trang-4.jpg" />
     <Content Include="images\giay-the-thao-nam-gt9-xanh1.jpg" />
     <Content Include="images\giày-nam-thể-thao-thời-trang-phong-cách-trẻ-trung-mạnh-mẽ23.png" />
@@ -202,6 +227,10 @@
     <Content Include="images\images %283%29.jpg" />
     <Content Include="images\images %284%29.jpg" />
     <Content Include="images\images.jpg" />
+    <Content Include="js\jquery-1.4.1.min.js" />
+    <Content Include="js\jquery-func.js" />
+    <Content Include="js\jquery.jcarousel.pack.js" />
+    <Content Include="js\jquery.slide.js" />
     <Content Include="SL.txt" />
     <Content Include="TrangChu.aspx" />
     <Content Include="Web.config">
@@ -356,12 +385,24 @@
     <Compile Include="Admin\TimkiemSP.aspx.designer.cs">
       <DependentUpon>TimkiemSP.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\WebForm18.aspx.cs">
-      <DependentUpon>WebForm18.aspx</DependentUpon>
+    <Compile Include="Admin\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Admin\WebForm18.aspx.designer.cs">
-      <DependentUpon>WebForm18.aspx</DependentUpon>
+    <Compile Include="Admin\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChiTiet.aspx.cs">
+      <DependentUpon>ChiTiet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChiTiet.aspx.designer.cs">
+      <DependentUpon>ChiTiet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="GioHang.aspx.cs">
       <DependentUpon>GioHang.aspx</DependentUpon>
@@ -369,6 +410,9 @@
     </Compile>
     <Compile Include="GioHang.aspx.designer.cs">
       <DependentUpon>GioHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Info.designer.cs" />
     <Compile Include="TrangChu.aspx.cs">
@@ -397,6 +441,17 @@
     <Content Include="Info.dbml" />
     <Content Include="Info.dbml.layout" />
     <Content Include="Admin\Admin.Master" />
+    <Content Include="DataSet.xsc">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="DataSet.xss">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -412,6 +467,9 @@
       <Project>{b2dc0d84-9ceb-4363-b107-1fcc518bce74}</Project>
       <Name>mydata</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

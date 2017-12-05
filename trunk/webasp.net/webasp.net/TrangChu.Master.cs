@@ -50,7 +50,7 @@ namespace webasp
                 lbkohang.Visible = true;
             }
             //lblsonguoitruycap.Text = "Số lượt truy cập:" + Application["soluottruycap"].ToString();
-            lbSoNguoiOnline.Text = "Số người online:";
+            lbSoNguoiOnline.Text = "Số người online:" + Application["songuoionline"].ToString();
             
         }
 

@@ -28,8 +28,8 @@
     <div id="noidung">
         <center>
             <div id="header">
-                Shop Giày Thể Thao Nam PHHT<br />
-                gmail@gmail.com</div>
+                <span style="color:white;font-size:30px;font-style:italic;font-weight:bold;">Shop Giày Thể Thao Nam PHHT<br />
+                gmail@gmail.com</span></div>
             <!--đòng header-->
         </center>
         <div id="ThanhMenu">
@@ -53,8 +53,8 @@
                 </div>
                 <div class="menutitle" style="text-align: left; width: 178px;">
                 <div style="background-color:#333333; width: 176px;">
-                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/HangMoiVe.aspx" 
-                        Width="111px">Quần áo mới về</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="#" 
+                        Width="111px">Giày Mới Về</asp:HyperLink>
                     <asp:Image ID="Image4" runat="server" Height="16px" ImageUrl="~/Anh/news.gif" 
                         Width="23px" />
                         </div>
@@ -122,7 +122,7 @@
                     </asp:DropDownList>
                     <div style="text-align:right; margin-right:3px">
                     <asp:ImageButton ID="timkiem" runat="server" ImageUrl="Anh/timkiem.jpg" 
-                        Height="26px" Width="44px" onclick="timkiem_Click" /></div>
+                        Height="26px" Width="44px"  /></div>
                 </div>
                 </div>
                 <div class="khungmenu">

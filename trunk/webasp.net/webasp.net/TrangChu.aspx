@@ -6,16 +6,17 @@
 
     <div>
         
-         <div id="slider">
-      <div id="slider-holder">
-        <ul>
-          <li><a href="#"><img src="css/images/slide1.jpg" alt="" /></a></li>
-          <li><a href="#"><img src="css/images/slide2.jpg" alt="" /></a></li>
-          <li><a href="#"><img src="css/images/slide1.jpg" alt="" /></a></li>
-          <li><a href="#"><img src="css/images/slide2.jpg" alt="" /></a></li>
-          <li><a href="#"><img src="css/images/slide1.jpg" alt="" /></a></li>
-          <li><a href="#"><img src="css/images/slide2.jpg" alt="" /></a></li>
+     <div id="slider">
+      <div id="slider-holder" style="width: 64%;border-radius: 7px;">
+        <ul style="width:20%;">
+          <li><a href="#"><img style="width: 64%;height: 417px;" src="css/images/slide1.jpg" alt="" /></a></li>
+          <li><a href="#"><img style="width: 64%;height: 417px;" src="css/images/slide2.jpg" alt="" /></a></li>
+          <li><a href="#"><img style="width: 64%;height: 417px;" src="css/images/slide1.jpg" alt="" /></a></li>
+          <li><a href="#"><img style="width: 64%;height: 417px;" src="css/images/slide2.jpg" alt="" /></a></li>
+          <li><a href="#"><img style="width: 64%;height: 417px;" src="css/images/slide1.jpg" alt="" /></a></li>
+          <li><a href="#"><img style="width: 64%;height: 417px;" src="css/images/slide2.jpg" alt="" /></a></li>
         </ul>
+
       </div>
       <div id="slider-nav"> <a href="#" class="prev">Previous</a> <a href="#" class="next">Next</a> </div>
     </div>

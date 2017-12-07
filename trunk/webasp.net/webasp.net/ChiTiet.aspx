@@ -13,6 +13,13 @@
         {
             width: 127px;
         }
+    .auto-style1 {
+        width: 127px;
+        height: 20px;
+    }
+    .auto-style2 {
+        height: 20px;
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Con1" runat="server">
@@ -55,11 +62,11 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="style2">
+                        <td class="auto-style1">
                             <asp:Label ID="Label5" runat="server" Text="Chất liệu:" Font-Bold="True" 
                                 Font-Size="11pt"></asp:Label>
                         </td>
-                        <td >
+                        <td class="auto-style2" >
                             <asp:Label ID="lblMaterial" runat="server" ForeColor="Black" Font-Size="11pt"></asp:Label>
                         </td>
                     </tr>

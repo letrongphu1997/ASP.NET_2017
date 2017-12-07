@@ -26,13 +26,13 @@
     <div id="noidungAD" align="center" style="background-color: #FFFFFF; margin-top: 0px;">
         <center>
             <div style="height: 131px; margin-bottom: 0px; margin-top: 0px;">
-                <img src="../Banner/Anh%20Banner/lazada-giay-the-thao-cho-nam.jpg" 
+                <img src="../Banner/Anh%20Banner/banerstyle.jpg" 
                     style="height: 130px; width: 995px" />
             </div>
             <div style="border-right: thin groove #FFFFFF; width: 995px;">
                 <div class="menu_traiAD" style="border-left-style: outset; border-left-width: thin;
                     border-left-color: #C0C0C0; border-right-style: inset; border-right-width: thin;
-                    border-right-color: #C0C0C0;">
+                    border-right-color: #C0C0C0;top:50%;">
                     <div class=" menunhanh" style="text-align: left; font-weight: bold; text-decoration: underline;">
                         QUẢN LÝ TÀI KHOẢN</div>
                     <div class=" menunhanh">

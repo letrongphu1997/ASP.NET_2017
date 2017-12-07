@@ -68,7 +68,7 @@ namespace webasp
         {
             DropNSX.Items.Insert(0,"--Chọn hãng SX--");
         }
-
+        /*
         protected void timkiem_Click(object sender, ImageClickEventArgs e)
         {
             string dk = "";
@@ -98,7 +98,7 @@ namespace webasp
             }
             Response.Redirect("~/Ketquatimkiem.aspx?DieuKien=" + dk);
         }
-
+        */
         protected void LinkThanhToan_Click(object sender, EventArgs e)
         {
             if (Session["UserName"] == null)

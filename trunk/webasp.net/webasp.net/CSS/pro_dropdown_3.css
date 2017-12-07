@@ -27,8 +27,3 @@
 }
 #nav li a.top_link span.down {float:left; display:block; padding:0 24px 0 12px; height:35px; background: url('../Anh/three_0a.gif') no-repeat right top;}
 
-#nav li:hover a.top_link {color:#fff; background: url('../Anh/three_1.gif') no-repeat;}
-    #nav li:hover a.top_link span {
-        background: url( 'file:///C:/Documents and Settings/Administrator/Desktop/webasp/webasp/../Anh/three_1.gif' ) no-repeat right top;
-    }
-#nav li:hover a.top_link span.down {background:url('../Anh/three_1a.gif') no-repeat right top; padding-bottom:3px;}

@@ -3,3 +3,7 @@ E:\webasp.net\mydata\bin\Debug\mydata.pdb
 E:\webasp.net\mydata\obj\Debug\mydata.csproj.CoreCompileInputs.cache
 E:\webasp.net\mydata\obj\Debug\mydata.dll
 E:\webasp.net\mydata\obj\Debug\mydata.pdb
+D:\webasp.net\mydata\bin\Debug\mydata.dll
+D:\webasp.net\mydata\bin\Debug\mydata.pdb
+D:\webasp.net\mydata\obj\Debug\mydata.dll
+D:\webasp.net\mydata\obj\Debug\mydata.pdb

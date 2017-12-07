@@ -7,3 +7,10 @@ E:\webasp.net\webasp.net\bin\webasp.net.dll
 E:\webasp.net\webasp.net\bin\webasp.net.pdb
 E:\webasp.net\webasp.net\bin\mydata.dll
 E:\webasp.net\webasp.net\bin\mydata.pdb
+D:\webasp.net\webasp.net\bin\webasp.net.dll
+D:\webasp.net\webasp.net\bin\webasp.net.pdb
+D:\webasp.net\webasp.net\bin\mydata.dll
+D:\webasp.net\webasp.net\bin\mydata.pdb
+D:\webasp.net\webasp.net\obj\Debug\webasp.csprojResolveAssemblyReference.cache
+D:\webasp.net\webasp.net\obj\Debug\webasp.net.dll
+D:\webasp.net\webasp.net\obj\Debug\webasp.net.pdb

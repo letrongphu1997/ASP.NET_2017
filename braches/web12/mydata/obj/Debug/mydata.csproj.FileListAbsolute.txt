@@ -1,0 +1,6 @@
+C:\Users\dell\Desktop\web12\mydata\bin\Debug\mydata.dll
+C:\Users\dell\Desktop\web12\mydata\bin\Debug\mydata.pdb
+C:\Users\dell\Desktop\web12\mydata\obj\Debug\mydata.csprojResolveAssemblyReference.cache
+C:\Users\dell\Desktop\web12\mydata\obj\Debug\mydata.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\web12\mydata\obj\Debug\mydata.dll
+C:\Users\dell\Desktop\web12\mydata\obj\Debug\mydata.pdb

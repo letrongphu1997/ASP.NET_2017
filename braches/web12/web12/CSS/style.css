@@ -1,0 +1,42 @@
+* { padding:0; margin:0; outline:0; }
+body {
+	
+}
+input, textarea, select { font-family: Arial, sans-serif; font-size:12px; color:#333; }
+textarea { overflow:auto;}
+
+a img { border:0;}
+
+a { color:#890000; text-decoration: none; cursor:pointer; }
+a:hover { color:#333; }
+
+
+
+#slider { width:980px; height:418px; position:relative; overflow:hidden; }
+#slider-holder { width:980px; height:418px; position:relative; overflow:hidden; }
+#slider-holder ul{ width:980px; height:418px; position:relative; overflow:hidden; list-style-type: none;}
+#slider-holder .jcarousel-clip{ width:980px; height:418px; position:relative; overflow:hidden; }
+
+#slider-holder ul li{ width:980px; height:418px; position:relative; overflow:hidden; float:left; display:inline; }
+#slider-nav a{ position:absolute; top:180px; font-size:0; line-height:0; z-index:2; width:58px; height:58px; text-indent: -4000px;}
+#slider-nav a.prev{ background:url(images/prev.gif); left:0;}
+#slider-nav a.next{ background:url(images/next.gif); right:0;left: 567px;}
+
+
+.tabs { height:36px; }
+.tabs ul{ list-style-type: none; font-size:14px; text-transform: uppercase; font-weight: bold; }
+.tabs ul li{ float:left; display:inline; margin-right:1px; }
+.tabs ul li a,
+.tabs ul li a span { float:left; height:36px; background:url(images/tab.gif) no-repeat 0 -37px; padding:0 0 0 20px;}
+.tabs ul li a span { background-position:right -37px; padding:0 20px 0 0;}
+.tabs ul li a { position:relative; line-height:36px; color:#895d23; }
+
+
+.tabs ul li a.red { background-position:0 -74px; color:#fff; }
+.tabs ul li a.red span{ background-position:right -74px;}
+
+.tabs ul li a.active,
+.tabs ul li a:hover { background-position:0 0; color:#4f4f4f; }
+.tabs ul li a.active span,
+.tabs ul li a:hover span{ background-position:right 0;}
+
